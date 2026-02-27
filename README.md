@@ -2,6 +2,8 @@
 
 Clipboard-to-file menu bar app. Read clipboard text, edit it, save to any file format.
 
+![ClipDrop](screenshot.png)
+
 ## Why
 
 You copy text all the time — code snippets, log output, API responses, notes — and want to save it to a file without opening a full editor. ClipDrop lives in your menu bar and gives you a one-click path from clipboard to file.
