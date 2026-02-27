@@ -10,17 +10,26 @@ You copy text all the time — code snippets, log output, API responses, notes �
 
 ## Install
 
+### Homebrew (recommended)
+
 ```bash
-# Clone and build
+brew tap scasella/tap
+brew install --cask clipdrop
+```
+
+Signed, notarized, and stapled — no Gatekeeper warnings.
+
+### Build from source
+
+```bash
+git clone https://github.com/scasella/ClipDrop.git
 cd ClipDrop
 chmod +x build.sh
 ./build.sh
-
-# Launch
 open ClipDrop.app
 ```
 
-Requires macOS 14+ and Swift 6.
+Requires macOS 14+.
 
 ## Quickstart
 
